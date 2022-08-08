@@ -1,0 +1,9 @@
+{
+    "welcomeMessage": "Merci d'avoir rejoint, {{ firstName }}! C'est super de vous avoir ici!",
+    "login": {
+      "username": "Entrez votre nom d'utilisateur",
+      "password": "Mot de passe ici"
+    },
+    "heading1": "Ajout de paramètres à l'aide du fichier .ts",
+    "heading2" : "Paramètres ajoutés dans le fichier html"
+  }

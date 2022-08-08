@@ -1,0 +1,20 @@
+<select #langSelect (change)="translate.use(langSelect.value)">
+    <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+</select>
+
+
+<h5>{{'heading1' | translate }}</h5>
+<p>{{ 'welcomeMessage' | translate: user }}</p>
+
+<br>
+<label translate='login.username'></label>
+<br>
+<input type="text">
+<br><br>
+<input type="password" placeholder="{{ 'login.password' | translate }}">
+
+
+<p>-----------------------------------------------</p>
+
+<h5>{{'heading2' | translate}}</h5>
+<p translate [translateParams]="{ firstName: user.firstName }">welcomeMessage</p> 

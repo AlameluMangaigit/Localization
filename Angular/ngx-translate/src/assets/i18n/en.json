@@ -1,0 +1,9 @@
+{
+    "welcomeMessage": "Thanks for joining, {{ firstName }}! It's great to have you here!",
+    "login": {
+      "username": "Enter your user name",
+      "password": "Password here"
+    },
+    "heading1" : "Added Parameters using .ts file",
+    "heading2" : "Added Parameters in html file"
+  }
